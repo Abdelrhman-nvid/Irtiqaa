@@ -1,0 +1,90 @@
+
+:root {
+    --bg-body: #f1f5f9;
+    --bg-header: #2c5282; 
+    --header-border: 1px solid #cbd5e1;
+    --header-shadow: none;
+    --text-dark: #1e293b;
+    --text-muted: #64748b;
+    --main-blue: #2c5282;
+    --accent-green: #22c55e;
+    --xp-barBg: #1b2c42;
+    --navbar-bg: #ffffff;
+    --navbar-effect: #f0f9ff;
+    --navbar-btn-clr: #475569;
+    --login-bg: #2c5282;
+    --login-font-clr: #ffffff;
+    --login-btn-effect: #1a3658;
+    --login-display: flex;
+    --themeBtn-clr: #ffffff;
+    --themeBtn-bg: #061328; 
+    --themeBtn-effect: #0a1c34;
+    --dashboard-card-bg: radial-gradient(circle at top left, #ffffff, #f8fafc);
+    --dashboard-card-font-clr: #0369a1;
+    --mystats-cards-bg: #ebebeb;
+    --mystats-cards-border: #e2e8f0;
+    --mystats-cards-shadow: rgba(0,0,0,.3);
+    --xp-card-icon-bg: #dcfce7;
+    --streak-card-icon-bg: #ffedd5;
+    --goal-card-icon-bg: #f0f9ff;
+    --badges-bg:  linear-gradient(135deg, #cbd5e1, #94a3b8);
+    --badges-clr: #334155;
+    --badges-bg-active: linear-gradient(135deg, #b3bac4, #7087a7);
+    --badges-clr-active: #202c3d;
+    --badges-shadow: none;
+    --badges-border: 2px solid #e2e8f0;
+
+    --shadow: none;
+    --stat-DG-clr: #334155;
+
+    --transition: 0.23s ease;
+
+    /*Profile View */
+    --edit-name-menu-bg: #0369a1;
+    --edit-name-input-bg: #ffffff
+
+
+}
+
+[data-theme='dark']{
+    --bg-body: #12202c;
+    --bg-header: #0c2030;
+    --header-border: 1px solid #e2e8f0b4;
+    --header-shadow: 5px 0 12px #1f353f;
+    --main-blue: #f2f7ff;
+    --text-dark: #ffffff;
+    --text-muted: #ececec;
+    --accent-green: #22c55e;
+    --xp-barBg: #0e1b2c;
+    --navbar-bg: #152635;
+    --navbar-effect: #0e2436;
+    --navbar-btn-clr: #ffffff;
+    --login-bg: #0f2940;
+    --login-font-clr: #ffffff;
+    --login-btn-effect: #132b3f;
+    --themeBtn-clr: #ffffff;
+    --themeBtn-bg: #2c538260; 
+    --themeBtn-effect: #152d4a;
+    --dashboard-card-bg: radial-gradient(circle at top left, #0c2030, #172635);
+    --dashboard-card-font-clr: #ffffff;
+    --mystats-cards-bg: #0a1e30;
+    --mystats-cards-border: #03081a;
+    --mystats-cards-shadow: rgba(255, 255, 255, 0.3);
+    --xp-card-icon-bg: #0a2530;
+    --streak-card-icon-bg: #30130a1f;
+    --goal-card-icon-bg: #0a1e30;
+    --badges-bg: linear-gradient(135deg, #0c2030, #001530);
+    --badges-clr: #fefefe;
+    --badges-bg-active: linear-gradient(135deg, #cbd5e1, #94a3b8);
+    --badges-clr-active: #334155;
+    --badges-shadow: 0 0 15px #effef9be;
+    --badges-border: none;
+
+    --shadow: 0 0 50px rgba(255, 255, 255, 0.473)f;
+    --stat-DG-clr: #858e99;
+
+}
+
+[data-log = 'logedIn']{
+    --login-display: none;
+}
